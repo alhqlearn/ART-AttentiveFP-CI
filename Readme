@@ -1,1 +1,5 @@
 AttentiveFP-CI
+
+
+pip install dgllife
+pip install optuna
