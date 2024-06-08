@@ -1,5 +1,6 @@
 AttentiveFP-CI
 
-
-pip install dgllife
+pip install dgl-cu110
+pip install dgllife==0.2.8
 pip install optuna
+pip install rdkit
