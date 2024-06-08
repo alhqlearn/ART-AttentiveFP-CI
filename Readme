@@ -1,8 +1,12 @@
 AttentiveFP-CI
 
-# Project summary
+## Project summary
 
-This repository contains the code and data for the study "Machine Learning Model for Catalytic Asymmetric Reactions of Simple Alkenes: From Model to Chemical Insights." The project utilizes a manually curated dataset of asymmetric transformations of alkenes (ATT: AlkeneTransformationTriad) from literature to train a deep learning model focused on predicting reaction outcomes, particularly enantioselectivity. These reactions are crucial for catalytic enantioselective transformations of alkenes, yielding important building blocks such as cyclopropanes, aziridines, and arylated alkenes. Various machine learning models are developed using different featurization techniques, including one-hot encoding, molecular fingerprints, SMILES, and molecular graphs.
+This repository contains the code and data for the study "Machine Learning Model for Catalytic Asymmetric Reactions of Simple Alkenes: From Model to Chemical Insights." The project utilizes a manually curated dataset of asymmetric transformations of alkenes (ATT: AlkeneTransformationTriad) from literature to train a deep learning model focused on predicting reaction outcomes, particularly enantioselectivity. These reactions are crucial for catalytic enantioselective transformations of alkenes, yielding important building blocks such as cyclopropanes, aziridines, and arylated alkenes. Using this dataset various machine learning (ML) models are developed using different featurization techniques, including one-hot encoding, molecular fingerprints, SMILES, and molecular graphs. We used Optuna for hyper-parameter tuning for these ML models.
+
+## Data
+
+There are 367 reactions in total, each varying by the type of reacting partner, including alkene, chiral ligand, and substrate. The 'ATT_ind.csv' file includes reaction examples with SMILES strings for each component along with the corresponding enantiomeric excess (ee). The 'ATT_30_splits.xlsx' file contains data for 30 different splits.
 
 pip install dgl-cu110
 pip install dgllife==0.2.8
