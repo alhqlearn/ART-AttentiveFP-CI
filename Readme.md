@@ -11,7 +11,7 @@ There are 376 reactions in total, each varying by the type of reacting partner, 
 ### Environmental Setup
 
 ```
-conda create --name ATT-AttentiveFP-CI python=3.7.16
+conda env create -f environment.yml
 conda activate ATT-AttentiveFP-CI
 pip install dgl-cu110
 pip install dgllife==0.2.8
