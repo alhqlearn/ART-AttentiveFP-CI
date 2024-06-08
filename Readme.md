@@ -20,6 +20,8 @@ pip install rdkit
 ```
 ## Demo & Instructions for use
 Notebook1 showcases the training of a deep neural network (DNN) model using fingerprint techniques and Optuna for hyperparameter tuning. 
+
 Notebook2 illustrates the training of a DNN model using one-hot encoding and Optuna for hyperparameter tuning. 
+
 Notebook3 presents the training of Random Forest, SVM, Decision Tree, and Gradient Boosting models using one-hot encoding and Optuna for hyperparameter tuning.
 
