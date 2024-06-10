@@ -28,3 +28,5 @@ Notebook3 presents the training of Random Forest, SVM, Decision Tree, and Gradie
 Notebook4 details the training of the AttentiveFP model using the AttentiveFPAtomFeaturizer, which includes one-hot encodings for atom type, degree, hybridization, formal charge, and other relevant properties. 
 
 Notebook5 covers the training of the AttentiveFP-CI model, also utilizing the AttentiveFPAtomFeaturizer, but with a different approach to handling class imbalance in the loss function.
+
+``It is important to highlight that Optuna is utilized for hyperparameter tuning to find the most promising parameter sets for all these ML models.``
