@@ -25,3 +25,6 @@ Notebook2 illustrates the training of a DNN model using one-hot encoding and Opt
 
 Notebook3 presents the training of Random Forest, SVM, Decision Tree, and Gradient Boosting models using one-hot encoding and Optuna for hyperparameter tuning.
 
+Notebook4 details the training of the AttentiveFP model using the AttentiveFPAtomFeaturizer, which includes one-hot encodings for atom type, degree, hybridization, formal charge, and other relevant properties. 
+
+Notebook5 covers the training of the AttentiveFP-CI model, also utilizing the AttentiveFPAtomFeaturizer, but with a different approach to handling class imbalance in the loss function.
