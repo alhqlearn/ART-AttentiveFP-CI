@@ -1,4 +1,4 @@
-name: ATT-AttentiveFP-CI
+name: ART-AttentiveFP-CI
 channels:
   - rdkit
   - pytorch
