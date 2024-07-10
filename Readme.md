@@ -6,13 +6,13 @@ This repository contains the code and data for the study "Machine Learning Model
 
 ## Data
 
-There are 376 reactions in total, each varying by the type of reacting partner, including alkene, chiral ligand, and substrate. The 'ATT_ind.csv' file includes reaction examples with SMILES strings for each component along with the corresponding enantiomeric excess (ee). The 'ATT_30_splits.xlsx' file contains data for 30 different splits.
+There are 376 reactions in total, each varying by the type of reacting partner, including alkene, chiral ligand, and substrate. The 'ART_ind.csv' file includes reaction examples with SMILES strings for each component along with the corresponding enantiomeric excess (ee). The 'ART_30_splits.xlsx' file contains data for 30 different splits.
 
 ### Environmental Setup
 
 ```
 conda env create -f environment.yml
-conda activate ATT-AttentiveFP-CI
+conda activate ART-AttentiveFP-CI
 pip install dgl-cu110
 pip install dgllife==0.2.8
 pip install optuna
