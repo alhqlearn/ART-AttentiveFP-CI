@@ -2,7 +2,7 @@
 
 ## Project summary
 
-This repository contains the code and data for the study "Machine Learning Model for Catalytic Asymmetric Reactions of Simple Alkenes: From Model to Chemical Insights." The project utilizes a manually curated dataset of asymmetric transformations of alkenes (ATT: AlkeneTransformationTriad) from literature to train a deep learning model focused on predicting reaction outcomes, particularly enantioselectivity. These reactions are crucial for catalytic enantioselective transformations of alkenes, yielding important building blocks such as cyclopropanes, aziridines, and arylated alkenes. Using this dataset various machine learning (ML) models are developed using different featurization techniques, including one-hot encoding, molecular fingerprints, SMILES, and molecular graphs. We used Optuna for hyper-parameter tuning for these ML models.
+This repository contains the code and data for the study "Machine Learning Model for Catalytic Asymmetric Reactions of Simple Alkenes: From Model to Chemical Insights." The project utilizes a manually curated dataset of asymmetric transformations of alkenes (ART: AlkeneReactionTriad) from literature to train a deep learning model focused on predicting reaction outcomes, particularly enantioselectivity. These reactions are crucial for catalytic enantioselective transformations of alkenes, yielding important building blocks such as cyclopropanes, aziridines, and arylated alkenes. Using this dataset various machine learning (ML) models are developed using different featurization techniques, including one-hot encoding, molecular fingerprints, SMILES, and molecular graphs. We used Optuna for hyper-parameter tuning for these ML models.
 
 ## Data
 
