@@ -1,4 +1,4 @@
-# ATT-AttentiveFP-CI
+# ART-AttentiveFP-CI
 
 ## Project summary
 
