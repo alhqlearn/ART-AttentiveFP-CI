@@ -32,7 +32,7 @@ Notebook5 covers the training of the AttentiveFP-CI model, also utilizing the At
 ``It is important to highlight that Optuna is utilized for hyperparameter tuning to find the most promising hyperparameter sets for all these ML models.``
 
 ## Acknowledgement
-We would like to acknowledge the following works,
+We would like to acknowledge the following works:
 
 https://github.com/Sunojlab/Transfer_Learning_in_Catalysis
 
