@@ -8,7 +8,7 @@ This repository contains the code and data for the study "Machine Learning Model
 
 There are 376 reactions in total, each varying by the type of reacting partner, including alkene, chiral ligand, and substrate. The 'ART_ind.csv' file includes reaction examples with SMILES strings for each component along with the corresponding enantiomeric excess (ee). The 'ART_30_splits.xlsx' file contains data for 30 different splits.
 
-The Excel files for the benchmark datasets, namely the Asymmetric Hydrogenation Reaction and the N, S-Acetylation Reaction, are also provided.
+The Excel files for the benchmark datasets, namely the Asymmetric Hydrogenation Reaction (Asymmetric_hydrogenation_reaction.csv) and the N, S-Acetylation Reaction (N,S_acetylation_reaction.xlsx), are also provided in the main branch.
 
 ### Environmental Setup
 
