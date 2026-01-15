@@ -35,7 +35,7 @@ In addition to the ART dataset, several widely used benchmark reaction datasets 
 ### Buchwald–Hartwig Amination (BHA)
 Datasets covering both High-Throughput (HTE) and Low-Throughput (LTE) experiment regimes:
 *   **`BHA_HTE.csv`**: High-throughput experiments.
-*   **`BHA_LTE.csv`**: Manually created Low-throughput experiments from HTE.
+*   **`BHA_LTE.csv`**: Manually created LTE datapoints from HTE.
 
 ### USPTO Gram-Scale Reaction Dataset
 A large-scale dataset split for training and evaluation:
