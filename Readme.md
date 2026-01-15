@@ -44,13 +44,17 @@ A large-scale dataset split for training and evaluation:
 
 ---
 
-## Predicted Ligand Dataset
+### Predicted Ligand Dataset
 
 *   **`Potential_Pubchem_Ligands_Predicted_ee.xlsx`**
     
     Contains candidate ligands sourced from PubChem along with their model-predicted enantiomeric excess (%ee) values. 
 
-### Environmental Setup
+## Figures
+
+The codebase contains two primary visualization utilities: **`Attention_visualization_with_predictions.py`**, to visualize attention map with prediction overlays, and **`Heatmap.py`**, for heatmap-based performance analysis.
+
+## Environmental Setup
 
 ```
 conda env create -f environment.yml
