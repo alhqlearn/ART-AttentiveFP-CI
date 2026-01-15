@@ -123,7 +123,7 @@ n_feats = atom_featurizer.feat_size('hv')
 e_feats = bond_featurizer.feat_size('he')
 
 
-data_file_path = 'divya_dataset_split_21.xlsx'
+data_file_path = 'ART_30_splits.xlsx'
 
 
 
