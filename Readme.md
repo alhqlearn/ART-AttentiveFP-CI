@@ -13,56 +13,50 @@ The execl files for the benchmark datasets, namely the asymmetric hydrogenation 
 Moreover, the dataset containg potential Pubchem ligands and their predicted %ee values are shown in Potential_Pubchem_Ligands_Predicted_ee.xlsx file.
 
 
-# ART Dataset (Alkene Reaction Triad)
+## ART Dataset (Alkene Reaction Triad)
 
-The **ART dataset** is a curated collection of **376 catalytic asymmetric alkene reactions** specifically designed as a challenging benchmark for enantioselectivity prediction in asymmetric catalysis.
+The **ART dataset** comprises 376 catalytic asymmetric alkene reactions, covering three reaction classes:
+1. Cyclopropanation
+2. Aziridination
+3. Arylation
 
-The dataset covers **three major reaction classes**:
+Each reaction varies in the identity of the alkene, chiral ligand, and reaction substrate, forming a comprehensive benchmark for enantioselectivity prediction.
 
-- Cyclopropanation  
-- Aziridination  
-- Arylation  
+### ART Core Data
+| Filename | Description |
+| :--- | :--- |
+| **`ART_ind.csv`** | Contains individual reaction entries with SMILES representations of all reaction components and the corresponding experimentally reported enantiomeric excess (%ee) values. |
+| **`ART_30_splits.xlsx`** | Provides 30 predefined train–test splits of the ART dataset to enable statistically robust model evaluation and fair comparison across different machine learning methods. |
 
-Each reaction entry varies in:
-- Alkene identity
-- Chiral ligand structure
-- Reaction substrate
-
-This structural diversity makes ART particularly valuable for testing the generalization ability of machine learning models in predicting enantiomeric excess (%ee).
-
-## Dataset Files
-
-### Core ART Dataset
-
-| File                        | Description                                                                                     | Format |
-|-----------------------------|-------------------------------------------------------------------------------------------------|--------|
-| `ART_ind.csv`               | Individual reaction entries including SMILES of all components and experimental %ee values     | CSV    |
-| `ART_30_splits.xlsx`        | 30 predefined train–test splits for statistically robust and comparable model evaluation       | XLSX   |
-
-These splits are strongly recommended for fair benchmarking and comparison between different machine learning approaches.
+---
 
 ### Benchmark Reaction Datasets
 
-The repository also includes several widely-used benchmark datasets from asymmetric catalysis and reaction prediction literature. These allow evaluation of model generalizability across different reaction classes, data sizes, and experimental regimes.
+In addition to the ART dataset, several widely used benchmark reaction datasets are included in the main branch of this repository. These datasets are used to evaluate the generalizability of the proposed model across diverse reaction classes and data regimes.
 
-| Dataset                              | File(s)                                    | Description                                                                 |
-|--------------------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
-| Asymmetric Hydrogenation             | `Asymmetric_hydrogenation_reaction.csv`    | Classic asymmetric hydrogenation reactions                                  |
-| N,S-Acetylation                      | `N,S_acetylation_reaction.xlsx`            | N,S-acetylation reaction dataset                                            |
-| Buchwald–Hartwig Amination (HTE)     | `BHA_HTE.csv`                              | High-throughput experimentation data                                        |
-| Buchwald–Hartwig Amination (LTE)     | `BHA_LTE.csv`                              | Low-throughput (traditional) experimentation data                           |
-| USPTO Gram-scale Reactions           | `USPTO_gram_train.csv`<br>`USPTO_gram_test.csv` | Gram-scale reaction dataset from USPTO (train/test split)                 |
+### Asymmetric Hydrogenation
+*   **`Asymmetric_hydrogenation_reaction.csv`**: Standard benchmark for asymmetric hydrogenation reactions.
 
-These datasets are commonly used in the reaction prediction and asymmetric catalysis machine learning community.
+### N,S-Acetylation Reaction
+*   **`N,S_acetylation_reaction.xlsx`**: Data covering N,S-acetylation reactions.
 
-### Predicted Ligand Screening Set
+### Buchwald–Hartwig Amination (BHA)
+Datasets covering both High-Throughput (HTE) and Low-Throughput (LTE) experiment regimes:
+*   **`BHA_HTE.csv`**: High-throughput experiments.
+*   **`BHA_LTE.csv`**: Low-throughput experiments.
 
-| File                                      | Description                                                                                   | Format |
-|-------------------------------------------|-----------------------------------------------------------------------------------------------|--------|
-| `Potential_Pubchem_Ligands_Predicted_ee.xlsx` | Candidate chiral ligands sourced from PubChem with model-predicted %ee values                | XLSX   |
+### USPTO Gram-Scale Reaction Dataset
+A large-scale dataset split for training and evaluation:
+*   **`USPTO_gram_train.csv`**: Training set.
+*   **`USPTO_gram_test.csv`**: Test set.
 
-**Important note:**  
-This file is intended for **virtual screening**, hypothesis generation, and prioritization of synthesis candidates — **not** for direct experimental validation or performance benchmarking.
+---
+
+## Predicted Ligand Dataset
+
+*   **`Potential_Pubchem_Ligands_Predicted_ee.xlsx`**
+    
+    Contains candidate ligands sourced from PubChem along with their model-predicted enantiomeric excess (%ee) values. 
 
 ### Environmental Setup
 
