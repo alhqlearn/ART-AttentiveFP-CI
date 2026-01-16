@@ -81,5 +81,8 @@ Notebook5 shows the creation of LTE dataset from HTE.
 ## Acknowledgement
 We would like to acknowledge the following works:
 https://github.com/OpenDrugAI/AttentiveFP.git
+https://github.com/Sunojlab/Transfer_Learning_in_Catalysis.git
+
+
 
 ## Citation
